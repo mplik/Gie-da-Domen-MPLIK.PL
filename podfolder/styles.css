@@ -53,3 +53,9 @@ a {
     text-decoration: none;
     outline: none;
 }
+
+.logo {
+    max-width: 25%;
+    height: auto;
+    border: none;
+}
