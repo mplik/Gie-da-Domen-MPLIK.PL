@@ -46,4 +46,10 @@ p {
 img {
     max-width: 25%;
     height: auto;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
 }
