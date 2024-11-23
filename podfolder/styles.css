@@ -24,6 +24,27 @@ body {
     border-radius: 5px;
 }
 
+.strona_wsparcia .cytat {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #5bcd3d; /*zmiana koloru border left na zielony*/
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+.strona_wsparcia
+#colier1 {
+    font-weight: bold;
+}
+
+.strona_wsparcia
+#text1 {
+    color: #333;
+    background-color: #e9ecef;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 p {
     margin: 10px 0;
 }
