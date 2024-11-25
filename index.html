@@ -23,7 +23,7 @@
             <li><a href="https://billing.stripe.com/p/login/fZedROdPQ6rb6CkdQQ">panel klienta</a></li>
         </p>
         <p>
-            <li><a href="podfolder/strona_w_podfolderze.html">Strona w podfolderze</a></li>
+            <li><a href="podfolder/strona_w_podfolderze.html">strona w podfolderze</a></li>
         </p>
         <p>
             <li><a href="podfolder/formularz_kontaktowy.html">formularz kontaktowy</a></li>
@@ -52,7 +52,20 @@
                 text-align: left;
             }
 
-            th { background-color: #f2f2f2;
+            th { 
+                background-color: #f2f2f2;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f9f0f9; /* Kolor tła dla parzystych wiersz*/
+            }
+
+            tr:hover {
+                background-color: #e0e0e0; /*Kolor tła dla wierszy po najechaniu*/
+            }
+
+            .highlight {
+                background-color: #5bcd3d; /* Kolor tła dla wyróżnionych komórek*/
             }
 
             .image-container {
