@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th { 
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f0f9; /* Kolor tła dla parzystych wiersz*/
+}
+
+tr:hover {
+    background-color: #e0e0e0; /*Kolor tła dla wierszy po najechaniu*/
+}
+
+.highlight {
+    background-color: #5bcd3d; /* Kolor tła dla wyróżnionych komórek*/
+}
+
+.image-container {
+    float: right;
+    width: 30%;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.highline {
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+    border: none;
+}
